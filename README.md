@@ -21,3 +21,25 @@ Before deploying, ensure you have:
 ```sh  
 pip install awsebcli --upgrade --user  
 
+#### 2️⃣ Initialize Elastic Beanstalk Project
+```sh
+eb init -p static my-static-site  
+
+#### 3️⃣ Create an Environment
+```sh
+eb create my-env  
+
+
+### 4️⃣ Deploy Application
+```sh
+eb deploy  
+
+###  Open the Application in a Browser
+```sh
+eb open  
+
+### Project Structure
+├── index.html   # Main HTML file
+├── style.css    # CSS file for styling
+├── README.md    # This file
+
